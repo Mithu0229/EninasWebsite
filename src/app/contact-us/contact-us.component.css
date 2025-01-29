@@ -1,0 +1,43 @@
+/* Contact Header Section */
+.contact-header {
+    background: linear-gradient(rgba(248, 249, 250, 0.9), rgba(248, 249, 250, 0.9)), url('https://via.placeholder.com/1500');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .contact-header h1 {
+    font-weight: bold;
+  }
+  
+  /* Contact Form and Info Section */
+  .contact-form-info .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .contact-form-info .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .contact-form-info .card-title {
+    color: #007bff;
+  }
+  
+  .contact-form-info .list-unstyled li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form-info .list-unstyled i {
+    margin-right: 1rem;
+  }
+  
+  /* Map Section */
+  .map-section iframe {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+  }
+  
+  .map-section iframe:hover {
+    filter: grayscale(0%);
+  }

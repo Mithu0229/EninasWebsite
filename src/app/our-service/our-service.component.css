@@ -1,0 +1,36 @@
+/* Services Header Section */
+.services-header {
+    background: linear-gradient(rgba(248, 249, 250, 0.9), rgba(248, 249, 250, 0.9)), url('https://via.placeholder.com/1500');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .services-header h1 {
+    font-weight: bold;
+  }
+  
+  /* Services Listing Section */
+  .services-listing .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .services-listing .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .services-listing .card-title {
+    color: #007bff;
+  }
+  
+  .services-listing .card-text {
+    color: #555;
+  }
+  
+  /* Call to Action Section */
+  .cta-section {
+    background-color: #007bff;
+  }
+  
+  .cta-section .btn {
+    margin-top: 20px;
+  }

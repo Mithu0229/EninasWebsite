@@ -1,0 +1,38 @@
+/* About Header Section */
+.about-header {
+    background: linear-gradient(rgba(248, 249, 250, 0.9), rgba(248, 249, 250, 0.9)), url('https://via.placeholder.com/1500');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .about-header h1 {
+    font-weight: bold;
+  }
+  
+  /* Mission and Vision Section */
+  .mission-vision .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .mission-vision .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .mission-vision .card-title {
+    color: #007bff;
+  }
+  
+  /* Team Section */
+  .team-section .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .team-section .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .team-section .card-img-top {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
