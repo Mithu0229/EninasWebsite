@@ -1,6 +1,7 @@
 /* Services Header Section */
 .services-header {
-    background: linear-gradient(rgba(248, 249, 250, 0.9), rgba(248, 249, 250, 0.9)), url('https://via.placeholder.com/1500');
+    /* background: linear-gradient(rgba(248, 249, 250, 0.9), rgba(248, 249, 250, 0.9)), url('https://via.placeholder.com/1500'); */
+    background: linear-gradient(rgba(237, 241, 245), rgba(0, 123, 255, 0.8)), url('https://via.placeholder.com/1500');
     background-size: cover;
     background-position: center;
   }
@@ -28,7 +29,8 @@
   
   /* Call to Action Section */
   .cta-section {
-    background-color: #007bff;
+    /* background-color: #007bff; */
+    background-color: #f8f9fa;
   }
   
   .cta-section .btn {
